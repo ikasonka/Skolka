@@ -27,11 +27,10 @@
   justify-content: center;
   list-style: none;
   border-bottom: 1px solid silver;
-  border-top: 1px solid silver;
 }
 
 .nav-list li {
-  padding: 34px 40px;
+  padding: 14px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,6 @@
   height: 100%;
   font-family: "Shantell Sans", cursive;
   color: var(--text-color);
-  font-size: 1rem;
 }
 
 .nav-list svg {
@@ -60,12 +58,4 @@
 .nav-last-item {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-
-.nav-list-logo {
-  width: 400px;
-}
-
-li .name {
-  font-size: 1.1rem;
 }

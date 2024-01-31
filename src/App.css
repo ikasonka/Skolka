@@ -7,38 +7,15 @@ body {
   padding: 0;
 }
 
-.footer-section {
-  padding-top: 100px;
-  background-image: url(./assets/blue.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
-  color: white;
+* {
+  box-sizing: border-box;
+}
+
+.section-heading {
   font-family: "Patrick Hand", cursive;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-logo {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.footer-logo h4 {
-  font-size: 1.5rem;
-}
-
-.footer-list,
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-list-item {
-  display: flex;
-  gap: 7px;
-  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
 }

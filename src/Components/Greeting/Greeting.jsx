@@ -3,7 +3,21 @@ import "./Greeting.css";
 const Greeting = () => {
   return (
     <div className="greeting-sections">
-      <p>Hello from greeting</p>
+      <h2 className="section-heading">Hello from greeting</h2>
+      <div className="greeting-container">
+        <div className="greeting-image-container">
+          <img
+            className="greeting-image"
+            src="src/assets/greeting-image.png"
+          ></img>
+        </div>
+        <div className="greeting-text-container">
+          <p className="greeting-text">
+            Hello this is just a card text so you know how it looks like and
+            what it is capable of
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

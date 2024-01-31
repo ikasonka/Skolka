@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <>
       <div className="section">
-        <h2 className="heading"></h2>
+        <h2 className="section-heading">Hello from Education</h2>
         <div className="flex_container">
           <div className="grid_item">
             <div className="card sun">
@@ -23,6 +23,7 @@ const Education = () => {
                   <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
                 </svg>
               </div>
+              <h2>Nadpis</h2>
               <p className="card_text">
                 Hello this is just a card text so you know how it looks like and
                 what it is capable of
@@ -46,6 +47,7 @@ const Education = () => {
                   <path d="M10.025 8a4.5 4.5 0 0 1-1.318 3.182L8 10.475A3.5 3.5 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.5 4.5 0 0 1 10.025 8M7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11" />
                 </svg>
               </div>
+              <h2>Nadpis</h2>
               <p className="card_text">
                 Hello this is just a card text so you know how it looks like and
                 what it is capable of
@@ -67,13 +69,14 @@ const Education = () => {
                   <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
                 </svg>
               </div>
+              <h2>Nadpis</h2>
               <p className="card_text">
                 Hello this is just a card text so you know how it looks like and
                 what it is capable of
               </p>
             </div>
           </div>
-          <div className="grid_item">
+          {/*         <div className="grid_item">
             <div className="card heart">
               <div className="overlay"></div>
               <div className="circle_icon">
@@ -97,6 +100,7 @@ const Education = () => {
               </p>
             </div>
           </div>
+        */}
         </div>
       </div>
     </>

@@ -4,7 +4,7 @@ const Activities = () => {
   return (
     <>
       <section className="activities-section">
-        <h3>Aktivity</h3>
+        <h2 className="section-heading">Hello from Activities</h2>
 
         <div className="activities-zážitky">
           <div className="event__body">
@@ -88,51 +88,9 @@ const Activities = () => {
               </div>
             </div>
           </div>
-
-          <div className="event__body">
-            <div className="event__left">
-              <img
-                src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/02/event2.jpg"
-                alt="event2"
-              />
-            </div>
-
-            <div className="event__content">
-              <div className="event__meta">
-                <p>21. novembra</p>
-              </div>
-              <h5 className="event__title">Okolie škôlky</h5>
-              <div className="event__excerpt">
-                S deťmi sme sa starali o naše okolie materskej školy, hrabali
-                sme lístie, pozorovali sme zmeny počasia, prázdne stromy,
-                ochladenie. Popri tom sme sa rozprávali, vysvetľovali si a hrali
-                sa.
-              </div>
-            </div>
-          </div>
-
-          <div className="event__body">
-            <div className="event__left">
-              <img
-                src="https://smartyschool.stylemixthemes.com/kindergarten-two/wp-content/uploads/2016/02/event2.jpg"
-                alt="event2"
-              />
-            </div>
-
-            <div className="event__content">
-              <div className="event__meta">
-                <p>9. novembra</p>
-              </div>
-              <h5 className="event__title">Sadenie ovocných stromčekov</h5>
-              <div className="event__excerpt">
-                Dňa 9.11. sme spolu s deťmi sadili ovocné stromčeky vďaka
-                úspešnému grantu nadácie BVS Zelený región 2023.
-              </div>
-            </div>
-          </div>
         </div>
 
-        <button>Pozrieť viac...</button>
+        <button className="activities-button">Chcem vedieť viac :P</button>
       </section>
     </>
   );

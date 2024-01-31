@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <>
       <div className="features">
-        <h2 className="features-heading"></h2>
+        <h2 className="features-heading">Prečo práve my?</h2>
         <div className="features-grid_container">
           <div className="features-grid_item sun">
             <div className="features-card">
