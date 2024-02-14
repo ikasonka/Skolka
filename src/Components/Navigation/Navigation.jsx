@@ -38,9 +38,15 @@ const Navigation = () => {
               </svg>
               <a href="#">Pre rodičov</a>
             </li>
+
             <div className="nav-list-logo">
-              <img src="src/assets/kids-navigation.jpg" alt="kids-navigation" width={350}></img>
+              <img
+                src="src/assets/kids-navigation.jpg"
+                alt="kids-navigation"
+                width={350}
+              ></img>
             </div>
+
             <li>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,3 +87,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
