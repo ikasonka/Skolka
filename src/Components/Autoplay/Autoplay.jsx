@@ -26,7 +26,7 @@ function Autoplay() {
   console.log(current);
   return (
     <div className="carousel-section">
-      <h2 className="section-heading">Hello from Education</h2>
+      <h2 className="section-heading">Povedali o nás...</h2>
       <div
         className="carousel"
         onMouseEnter={() => {

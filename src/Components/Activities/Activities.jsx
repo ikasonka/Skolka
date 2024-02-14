@@ -4,7 +4,7 @@ const Activities = () => {
   return (
     <>
       <section className="activities-section">
-        <h2 className="section-heading">Hello from Activities</h2>
+        <h2 className="section-heading">Aktivity počas roka</h2>
 
         <div className="activities-zážitky">
           <div className="event__body">
@@ -90,7 +90,7 @@ const Activities = () => {
           </div>
         </div>
 
-        <button className="activities-button">Chcem vedieť viac :P</button>
+        <button className="activities-button">Chcem vedieť viac :) </button>
       </section>
     </>
   );

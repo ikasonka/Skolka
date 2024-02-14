@@ -25,8 +25,7 @@ const Features = () => {
               </div>
             </div>
             <p className="features-card_text">
-              Hello this is just a card text so you know how it looks like and
-              what it is capable of
+              Vzdelané učiteľky
             </p>
           </div>
           <div className="features-grid_item trumpet">
@@ -48,8 +47,7 @@ const Features = () => {
               </div>
             </div>
             <p className="features-card_text">
-              Hello this is just a card text so you know how it looks like and
-              what it is capable of
+              Príjemné prostredie
             </p>
           </div>
           <div className="features-grid_item star">
@@ -69,8 +67,7 @@ const Features = () => {
               </div>
             </div>
             <p className="features-card_text">
-              Hello this is just a card text so you know how it looks like and
-              what it is capable of
+              Zaujímavé aktivity
             </p>
           </div>
           <div className="features-grid_item heart">
@@ -93,8 +90,7 @@ const Features = () => {
               </div>
             </div>
             <p className="features-card_text">
-              Hello this is just a card text so you know how it looks like and
-              what it is capable of
+              Zdravé jedlo a pohyb
             </p>
           </div>
         </div>
