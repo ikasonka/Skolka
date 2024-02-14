@@ -18,7 +18,7 @@ const Hero = () => {
               <span className="waviy7">e</span>
             </div>
             <p className="hero-text">
-              ...v našom čarovnom detskom svete u nás doma v Turni...
+              ...v našom čarovnom detskom svete u nás doma v Turni....
             </p>
             <button className="hero-button">Chcem sa pridať</button>
           </div>
